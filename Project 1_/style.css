@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-image: url('m-webimg/b2.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+    margin-left: 100px;
+}
+.container{
+    
+
+}
+#logo{
+    width: 150px;
+    margin-top: 10px;
+
+}
+.header-text{
+    margin: 60px 0px;
+    max-width: 400px;
+    
+
+}
+h1{
+    color: #6c63ff;
+    font-size: 40px;
+    
+
+}
+.header-text p{
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.common-btn{
+    padding: 10px 20px;
+    outline: none;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.common-btn:hover{
+    background: none;
+    color: black;
+    border: 1px solid #6c63ff;
+    transition: 0.4s;
+}
+.line{
+    line-height: 20px;
+    display: inline-block;
+}
+.line-1{
+    width: 12px;
+    height: 12px;
+    background-color: #6c63ff;
+
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    background-color: #6c63ff;
+    
+}
+.line-3{
+    width: 120px;
+    height: 1px;
+    background-color: #6c63ff;
+    
+}
+#menu{
+    width: 50px;
+    position: fixed;
+    top: 10px;
+    right: 100px;
+    cursor: pointer;
+    z-index: 4;
+    
+}
+#sidenav{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 50px;
+    top: 0;
+    right: -300px;
+    background-color: #6c63ff;
+   
+
+}
+#sidenav li{
+    list-style: none;
+
+}
+#sidenav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    display: block;
+    margin: 20px 30px;
+    font-weight: bold;
+    
+}
+#sidenav li a:hover{
+    background-color: rgba(225, 255, 255,0.1);
+    transition: 0.5s;
+}
+.about{
+    padding: 100px 0px;
+}
+.about-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+
+}
+.about-left-col img{
+    width: 100%;
+
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+    margin-right: 100px;
+    max-width: 500px;
+
+}
+.about-right-col p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0px;
+
+}
+.about-right-col h2{
+    font-size: 30px;
+    font-style: italic;
+   
+}
+#features{
+    padding: 100px 0px;
+
+}
+.features-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.features-box{
+    flex-basis: 25%;
+    text-align: center;
+
+}
+.features-box img{
+    width: 100%;
+
+}
+.features-box h3{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.features-box p{
+    font-size: 20px;
+
+}
+#middle-btn{
+    text-align: center;
+}
+#courses{
+    padding: 100px 0px;
+
+}
+.courses-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.courses-left-col{
+    flex-basis: 50%;
+
+}
+.courses-left-col img{
+    width: 100%;
+}
+.courses-right-col{
+    flex-basis: 50%;
+    text-align: right;
+    margin-right: 100px;
+    max-width: 500px;
+}
+.courses-right-co p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+#contact{
+    padding: 100px 0px;
+
+}
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contant-left{
+    flex-basis: 50%;
+}
+.contant-left img{
+    width: 100%;
+    
+}
+.contant-right{
+    flex-basis: 50%;
+    text-align: center;
+
+   
+    
+}
+form{
+    margin-top: 20px;
+
+}
+form input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+textarea{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+

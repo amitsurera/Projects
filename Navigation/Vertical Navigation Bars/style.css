@@ -1,0 +1,27 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    border-right: 1px solid #156ee2;
+}
+
+a{
+    display: block;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+
+}
+a:hover , .active a{
+    background-color: #156ee2;
+}
+

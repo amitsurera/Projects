@@ -1,0 +1,31 @@
+body{
+    font-family: 'varta',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border-right: 5px solid #0966c2;
+    width: 25%;
+    height: 100vh;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;    
+}
+a{
+    color: #0966c2;
+    display: block;
+    text-decoration: none;
+    padding:15px ;
+}
+a:hover{
+    color: white;
+    background-color: #0966c2;
+}
+a :hover i {
+    color: #f3ba64;
+}

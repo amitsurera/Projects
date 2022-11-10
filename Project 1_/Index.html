@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section id="header">
+        <div class="container">
+            <img src="m-webimg/Logo.png" alt="" id="logo">
+        </div>
+        <div class="header-text">
+            <h1>Welcom to My Website</h1><br>
+            <div class="line-1"></div><br>
+            <p>Lorem ipsum dolor site amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mainm veniam dolore eu fugiat nulla pariatur. Excepteur sint occaectcat cupidateat</p>
+            <button type="button" name="button" class="common-btn">Read more</button>
+
+        </div>
+        <div class="line">
+            <div class="line-1"></div><br>
+            <div class="line-2"></div><br>
+            <div class="line-3"></div>
+        </div>
+        
+     </section>
+     <nav>
+        <img src="m-webimg/menu.png" alt="" id="menu">
+    </nav>
+    <section id="sidenav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </section>
+    <section class="about">
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="m-webimg/b.jpeg" alt="">
+            </div>
+            <div class="about-right-col">
+                <h1>About us</h1><br>
+                <div class="line-1" style="display:inline-block ;"></div>
+                <p>Lorem ipsum dolor site amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mainm veniam dolore eu fugiat nulla pariatur. Excepteur sint occaectcat cupidateat</p>
+                <h2>Amit Surera</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="features-container">
+            <div class="features-box">
+                <img src="m-webimg/a2.png" alt="">
+                <h3>Our Designs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+            </div>
+            <div class="features-box">
+                <img src="m-webimg/a4.png" alt="">
+                <h3>Our Tutorials</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+            </div>
+            <div class="features-box">
+                <img src="m-webimg/a7.png" alt="">
+                <h3>Our Vidoes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+            </div>
+        </div>
+        <section id="middle-btn">
+            <div class="line">
+                <div class="line-1"></div><br>
+                <div class="line-2"></div><br>
+                <div class="line-3"></div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+            <button type="button" name="button" class="common-btn">Read more</button>
+        </section>
+    </section>
+
+    <section id="courses">
+        <div class="courses-row">
+            <div class="courses-left-col">
+                <img src="m-webimg/a5.png" alt="">
+            </div>
+            <div class="courses-right-col">
+                <h1>Our Courses</h1><br>
+                <div class="line-1" style="display:inline-block";></div>                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in minim veniam, quis nostrud exercitation ullaamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                <button type="button" name="button" class="common-btn">Visit Our Courses</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-row">
+            <div class="contant-left">
+                <img src="m-webimg/b3.png" alt="">
+            </div>
+            <div class="contant-right">
+                <h1>Connect with us</h1>
+                <form action="Index.html" method="post">
+                    <input type="text" name="" value="" placeholder="Name">
+                    <input type="text" name="" value="" placeholder="E-mail">
+                    <textarea name="name" cols="80" rows="8"></textarea><br>
+                    <button type="button" name="button" class="common-btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script>
+       var menu = document.getElementById('menu');
+       var sidenav = document.getElementById('sidenav');
+       sidenav.style.right = '-300px' ;
+        menu.onclick=function(){
+            if(sidenav.style.right=="-300px"){
+                sidenav.style.right="0px";
+            }
+            else{
+                sidenav.style.right="-300px";
+            }
+        }
+
+    </script>
+</body>
+</html>

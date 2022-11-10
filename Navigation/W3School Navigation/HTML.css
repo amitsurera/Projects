@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.html-Tutorial-section{
+    width: 100%;
+    height: 100vh;
+    
+}
+.html-left-col-section{
+    width: 14.5%;
+    background-color: #EDEDED;
+    padding-top: 20px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    float: left;
+}
+.html-left-col-section p{
+    padding: 10px 0;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.html-left-col-section a{
+    display: block;
+    padding: 4px 0px;
+    padding-left: 20px;
+}
+
+
+.html-left-col-section a:hover{
+    background-color: #66DE93;
+    transition: 5.s;
+    color: white;
+    
+}
+.html-left-col-section  ul li a:focus{
+    background-color: #66DE93;
+}
+.html-Right-col-section{
+    width: 71%;
+    height: 100vh;
+    float: left;
+    
+}
+
+.html-Right-col-section p{
+    margin-top: 170px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.button-Previous-Next {
+    height: 45px;
+    margin-top: 15px;
+    
+}
+.button-Previous button {
+    float: left;
+    margin-left: 30px;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #66DE93;
+    
+    
+}
+.button-Next button{
+    float: right;
+    margin-right: 60px;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: #66DE93;
+}
+.study-our-free-html{
+    height: 300px;
+    margin-top: 25px;
+    padding-top: 30px;
+    background-color:#C8DBBE;
+}
+.study-our-free-html p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.study-our-free-html button{
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: #66DE93;
+    color: white;
+    font-size: 18px;
+}
+
